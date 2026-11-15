@@ -1,0 +1,64 @@
+{
+  "seed": 20261022,
+  "fiscal_year": 2026,
+  "as_of_date": "2026-10-31",
+  "po_date_window": {"start": "2026-01-05", "end": "2026-08-31"},
+  "currency": "USD",
+
+  "volumes": {
+    "vendors": 300,
+    "purchase_orders": 1500,
+    "purchase_order_lines": 2200,
+    "goods_receipts": 1800,
+    "invoices": 2000
+  },
+
+  "scenario_mix": {
+    "clean": 0.70,
+    "price_variance": 0.10,
+    "quantity_mismatch": 0.08,
+    "duplicate": 0.05,
+    "missing_receipt": 0.04,
+    "tax_vendor_error": 0.03
+  },
+
+  "sub_scenario_mix": {
+    "clean": {
+      "standard": 0.80,
+      "within_tolerance_price": 0.08,
+      "partial_receipt_billed_at_received": 0.05,
+      "over_receipt_billed_at_po": 0.04,
+      "non_po": 0.03
+    },
+    "price_variance": {"price_above_tolerance": 1.0},
+    "quantity_mismatch": {"partial_delivery": 0.60, "exceeds_po_quantity": 0.40},
+    "duplicate": {"same_invoice_submitted_twice": 0.50, "duplicate_invoice_number": 0.50},
+    "missing_receipt": {"no_goods_receipt": 1.0},
+    "tax_vendor_error": {
+      "tax_mismatch": 0.35,
+      "closed_vendor": 0.25,
+      "total_mismatch": 0.25,
+      "invoice_date_before_po": 0.15
+    }
+  },
+
+  "tolerances": {
+    "price_pct": "0.02",
+    "amount_abs": "0.01",
+    "quantity_units": 0
+  },
+
+  "tax_codes": {
+    "TX0": "0.00",
+    "TX5": "0.05",
+    "TX8": "0.0825",
+    "TX10": "0.10"
+  },
+
+  "approval_matrix": [
+    {"tier": 1, "max_total": "10000.00", "roles": ["SYSTEM_AUTO"]},
+    {"tier": 2, "max_total": "100000.00", "roles": ["DEPT_MANAGER"]},
+    {"tier": 3, "max_total": null, "roles": ["DEPT_MANAGER", "FINANCE_CONTROLLER"]}
+  ],
+  "non_po_minimum_tier": 2
+}

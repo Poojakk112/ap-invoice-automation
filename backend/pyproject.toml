@@ -1,0 +1,9 @@
+[project]
+name = "apflow"
+version = "1.0.0"
+description = "AP invoice automation: intake, extraction, 3-way match, exception routing, payment readiness"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"
