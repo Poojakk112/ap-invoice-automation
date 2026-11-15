@@ -202,7 +202,7 @@ Expected labels and decisions, derived from the injected scenario via the rule t
 | `injected_detail` | string | N |  |  |  |  | Human-readable description of the injection |
 | `duplicate_of_invoice_id` | string | N |  |  |  | invoices.invoice_id | Original invoice for duplicates |
 | `expected_exceptions` | string | N |  |  |  |  | Pipe-separated exception codes |
-| `expected_primary_exception` | string | N |  | EXTRACTION_FAILED, DUPLICATE_EXACT, DUPLICATE_NUMBER, VENDOR_UNKNOWN, VENDOR_INACTIVE, VENDOR_PO_MISMATCH, TOTAL_MISMATCH, DATE_BEFORE_PO, PO_NOT_FOUND, TAX_MISMATCH, LINE_NOT_ON_PO, MISSING_RECEIPT, QTY_EXCEEDS_PO, QTY_EXCEEDS_RECEIVED, PRICE_VARIANCE |  |  | Primary code by precedence |
+| `expected_primary_exception` | string | N |  | EXTRACTION_FAILED, DUPLICATE_EXACT, DUPLICATE_NUMBER, VENDOR_UNKNOWN, VENDOR_INACTIVE, VENDOR_PO_MISMATCH, TOTAL_MISMATCH, DATE_BEFORE_PO, PO_NOT_FOUND, PO_REQUIRED, TAX_MISMATCH, LINE_NOT_ON_PO, MISSING_RECEIPT, QTY_EXCEEDS_PO, QTY_EXCEEDS_RECEIVED, PRICE_VARIANCE |  |  | Primary code by precedence |
 | `expected_match_status` | string | Y |  | DUPLICATE, HEADER_ERROR, MATCHED, NON_PO, NO_RECEIPT, PRICE_VARIANCE, QUANTITY_VARIANCE, TAX_VARIANCE, VENDOR_BLOCKED |  |  | Expected match status |
 | `expected_route_queue` | string | N |  |  |  |  | Expected work queue |
 | `expected_approval_roles` | string | N |  |  |  |  | Pipe-separated roles (eligible invoices only) |

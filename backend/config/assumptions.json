@@ -1,0 +1,11 @@
+{
+  "_note": "ASSUMPTIONS, not measurements. Replace with the customer's real numbers before presenting to a customer.",
+  "minutes_per_invoice_manual_processing": 8,
+  "minutes_per_exception_manual_investigation": 25,
+  "minutes_per_invoice_touchless_spot_check": 1,
+  "minutes_per_exception_with_guided_reason": 12,
+  "loaded_cost_per_hour_usd": 35,
+  "working_hours_per_fte_year": 1800,
+  "manual_process_miss_rate_duplicates": 0.30,
+  "manual_process_miss_rate_overbilling": 0.30
+}

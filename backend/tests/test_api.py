@@ -58,3 +58,12 @@ def test_errors(client):
     assert client.get("/api/invoices/INV-XXX01-2026-999999", params={"dataset": "apitest"}).status_code == 404
     assert client.get("/api/summary", params={"dataset": "nope"}).status_code == 404
     assert client.get("/api/summary", params={"dataset": "../etc"}).status_code == 400
+
+
+def test_analysis_endpoints(client):
+    w = client.get("/api/whatif", params={"dataset": "apitest"}).json()
+    assert any(r["current_policy"] for r in w["rows"])
+    r = client.get("/api/robustness", params={"dataset": "apitest"}).json()
+    assert r["unsafe_payments"] == 0
+    i = client.get("/api/impact", params={"dataset": "apitest"}).json()
+    assert {x["basis"] for x in i["rows"]} >= {"measured"}

@@ -60,5 +60,6 @@
     {"tier": 2, "max_total": "100000.00", "roles": ["DEPT_MANAGER"]},
     {"tier": 3, "max_total": null, "roles": ["DEPT_MANAGER", "FINANCE_CONTROLLER"]}
   ],
-  "non_po_minimum_tier": 2
+  "non_po_minimum_tier": 2,
+  "non_po_allowed_sku_prefixes": ["SKU-SRV-"]
 }

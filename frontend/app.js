@@ -76,6 +76,36 @@ async function loadQueues() {
   sel.value = current;
 }
 
+// ---------------------------------------------------------------- analysis panels
+async function loadAnalysis() {
+  const q = `?dataset=${state.dataset}`;
+  const [w, r, i] = await Promise.all(["whatif", "robustness", "impact"].map((n) =>
+    api(`/api/${n}${q}`).catch(() => null)));
+  $("whatifPanel").classList.toggle("hidden", !w);
+  $("robustPanel").classList.toggle("hidden", !r);
+  $("impactPanel").classList.toggle("hidden", !i);
+  if (w) {
+    const maxPaid = Math.max(1, ...w.rows.map((x) => Number(x.overcharge_paid_usd)));
+    $("whatif").innerHTML = "<thead><tr><th>Price tolerance</th><th class='num'>Touchless</th><th class='num'>Need a person</th>" +
+      "<th class='num'>Good invoices blocked</th><th class='num'>Variances missed</th><th>Overcharge paid</th></tr></thead><tbody>" +
+      w.rows.map((x) => `<tr${x.current_policy ? ' style="font-weight:650"' : ""}><td>${x.tolerance_pct.toFixed(0)}%${x.current_policy ? " (current)" : ""}</td>` +
+        `<td class="num">${pct(x.touchless_rate)}</td><td class="num">${x.needs_human}</td><td class="num">${x.good_invoices_blocked}</td>` +
+        `<td class="num">${x.price_variances_missed}</td><td><span class="bar" style="width:${Math.max(2, Number(x.overcharge_paid_usd) / maxPaid * 120)}px"></span> ${money(x.overcharge_paid_usd)}</td></tr>`).join("") +
+      "</tbody>";
+  }
+  if (r) {
+    $("robustLead").textContent = `${r.documents_damaged} documents damaged on purpose; ${r.unsafe_payments} unsafe payments.`;
+    $("robust").innerHTML = "<thead><tr><th>Damage</th><th class='num'>Docs</th><th class='num'>Handled OK</th><th class='num'>Blocked</th><th class='num'>Unsafe</th></tr></thead><tbody>" +
+      Object.values(r.by_damage_type).map((x) => { const o = x.outcomes;
+        return `<tr><td>${esc(x.description)}</td><td class="num">${x.documents_damaged}</td><td class="num">${o.HANDLED_OK}</td>` +
+          `<td class="num">${o.SAFE_FAILURE + o.STILL_BLOCKED}</td><td class="num"><b>${o.UNSAFE_PAYMENT}</b></td></tr>`; }).join("") + "</tbody>";
+  }
+  if (i) {
+    $("impact").innerHTML = "<thead><tr><th>Item</th><th class='num'>Value</th><th>Basis</th></tr></thead><tbody>" +
+      i.rows.map((x) => `<tr><td>${esc(x.item)}</td><td class="num">${esc(x.value)}</td><td class="muted small">${esc(x.basis)}</td></tr>`).join("") + "</tbody>";
+  }
+}
+
 // ---------------------------------------------------------------- invoices
 async function loadInvoices() {
   const p = new URLSearchParams({ dataset: state.dataset, limit: PAGE, offset: state.offset });
@@ -142,7 +172,7 @@ function closeDrawer() {
 async function refreshAll() {
   try {
     showBanner("");
-    await Promise.all([loadSummary(), loadQueues()]);
+    await Promise.all([loadSummary(), loadQueues(), loadAnalysis()]);
     await loadInvoices();
   } catch (err) {
     showBanner(err.message);

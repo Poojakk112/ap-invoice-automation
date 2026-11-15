@@ -56,3 +56,17 @@ def test_unknown_layout_and_missing_field_raise():
 def test_invoice_number_normalisation():
     assert normalise_invoice_number("ape01-26-0042") == normalise_invoice_number("APE01260042")
     assert normalise_invoice_number("APE/2026/00042") == "APE202600042"
+
+
+@pytest.mark.parametrize("channel", ["EMAIL", "PORTAL", "EDI"])
+def test_windows_line_endings_and_trailing_spaces_are_tolerated(channel):
+    text = render(_invoice(), VENDOR, channel)
+    messy = "\r\n".join(line + "   " for line in text.split("\n"))
+    assert extract(messy).stated_total == Decimal("1358.54")
+
+
+@pytest.mark.parametrize("channel", ["EMAIL", "PORTAL", "EDI"])
+def test_unreadable_item_line_is_an_error_not_a_silent_drop(channel):
+    text = render(_invoice(), VENDOR, channel).replace("1,255.00", "1,2S5.00").replace("1255.00", "12S5.00")
+    with pytest.raises(ExtractionError):
+        extract(text)

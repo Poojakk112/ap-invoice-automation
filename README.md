@@ -17,6 +17,8 @@ raw invoice documents ──► extract fields ──► duplicate gate ──�
                                   BLOCKED (never payable)                 (hard guard in code)
 ```
 
+![Dashboard](docs/images/dashboard.png)
+
 Every state change is written to an append-only audit log (`invoice_events.csv`), and every blocked invoice
 carries a plain-English explanation with expected vs actual values.
 
@@ -33,8 +35,32 @@ carries a plain-English explanation with expected vs actual values.
 | Data validation checks | 90 / 90 pass |
 | Same seed, regenerated twice | 26/26 files byte-identical |
 
-> These scores are high because the documents are machine-rendered and the rules are known. See
-> [Limitations](#limitations) for what would change with real scanned invoices.
+> These scores are high because the documents are machine-rendered and the rules are known. The
+> [robustness test](#beyond-the-brief-three-extras) below shows what happens when documents are damaged.
+
+## Beyond the brief: three extras
+
+The brief asks for data, rules and validation. These three go further, because a real customer would ask
+"what if the documents are messy?", "how strict should the rules be?" and "what is it worth?".
+
+**1. Robustness test** (`python -m apflow robustness`, report in `docs/results/robustness.md`).
+900 documents are damaged on purpose (wrong digit, letter instead of digit, missing total, blank PO number,
+messy line endings). The result that matters is **unsafe payments: 0**. The test also found two real weaknesses
+that are now fixed:
+
+* A goods invoice with an unreadable PO number was treated as a non-PO invoice and **skipped the 3-way match**
+  (41 unsafe payments). It is now blocked with `PO_REQUIRED`; only service SKUs may be billed without a PO.
+* Windows line endings broke extraction completely. Text is now normalised, and an item line that cannot be read
+  raises an error instead of being silently dropped.
+
+**2. What-if simulator** (`python -m apflow whatif`, `docs/results/whatif.md`).
+Replays the same invoices under price tolerances from 0% to 10%. At 0%, 112 good invoices need a person. At 10%,
+64 price variances slip through and $38.8K of overcharge is paid. The current 2% blocks no good invoices and
+misses no variances. The trade-off is visible, so the process owner can pick the number.
+
+**3. Business impact estimate** (`python -m apflow impact`, `docs/results/impact.md`).
+Combines measured results with assumptions (minutes per invoice, hourly cost) that are kept in
+`backend/config/assumptions.json` and labelled as assumptions. Replace them with the customer's numbers.
 
 ## Project structure
 
@@ -59,7 +85,7 @@ python -m venv .venv
 pip install -r backend/requirements.txt
 
 cd backend
-python -m pytest -q                               # 52 tests
+python -m pytest -q                               # 67 tests
 python -m apflow all --scale 0.1 --name starter   # small dataset: ~1 second
 python -m apflow all                              # full dataset: 300 vendors, 2,000 invoices
 
@@ -97,10 +123,13 @@ A static report is also written to `output/full/report.html`.
 | `python -m apflow validate` | 90 checks: keys, joins, enums, dates, arithmetic, lifecycle, duplicates, labels |
 | `python -m apflow run` | Run the automation; write decisions, exceptions, events and a SQLite DB to `output/<name>/` |
 | `python -m apflow evaluate` | Score against ground truth; write `metrics.json` and `report.html` |
+| `python -m apflow whatif` | Replay invoices under different price tolerances |
+| `python -m apflow robustness` | Damage documents on purpose and check no wrong payment results |
+| `python -m apflow impact` | Business impact estimate from results + `assumptions.json` |
 | `python -m apflow reproduce` | Generate twice with the same seed and compare SHA-256 checksums |
 | `python -m apflow explain INV-UNI09-2026-000003` | Print the decision and full audit trail for one invoice |
 | `python -m apflow docs` | Regenerate `docs/data_dictionary.md` from the schema |
-| `python -m apflow all` | generate → validate → run → evaluate → reproduce |
+| `python -m apflow all` | generate → validate → run → evaluate → whatif → robustness → impact → reproduce |
 
 All commands accept `--scale`, `--seed`, `--name` and `--policy`. The default name is `full` at scale 1.0.
 
@@ -123,6 +152,7 @@ All commands accept `--scale`, `--seed`, `--name` and `--policy`. The default na
 | Totals | subtotal = Σ lines; total = subtotal + tax (±0.01) | `TOTAL_MISMATCH` → AP_DATA_QUALITY |
 | Dates | invoice date ≥ PO date | `DATE_BEFORE_PO` → AP_DATA_QUALITY |
 | Tax | tax code = PO line tax code; stated tax = Σ round(line × rate) | `TAX_MISMATCH` → TAX_TEAM |
+| PO reference | goods invoices must reference a PO; only service SKUs (`SKU-SRV-`) may be billed without one | `PO_REQUIRED` → PROCUREMENT |
 | Receipt | an invoiced PO line must have a goods receipt | `MISSING_RECEIPT` → RECEIVING |
 | Quantity | cumulative billed ≤ ordered, and ≤ received | `QTY_EXCEEDS_PO` → PROCUREMENT, `QTY_EXCEEDS_RECEIVED` → RECEIVING |
 | Price | invoice unit price ≤ PO price × 1.02 | `PRICE_VARIANCE` → PROCUREMENT |
@@ -185,11 +215,20 @@ backend/tests/              unit, rule-level, end-to-end, negative and API tests
 
 ## Limitations
 
-* **Extraction is rule-based on clean, machine-rendered text**, so it scores 100%. Real invoices (scans, PDFs)
-  would need OCR or an LLM extractor behind `extract()`. The evaluation harness would score that the same way,
-  and the next step would be injecting OCR noise to measure robustness.
+* **Extraction is rule-based on machine-rendered text.** It scores 100% on clean documents and fails safely on
+  damaged ones (see the robustness test), but real scans or PDFs would need OCR or an LLM extractor behind
+  `extract()`. The evaluation harness would score that the same way.
+* **The synthetic price variances are either under 1.5% or over 3%**, so the what-if results for 2% and 3% are
+  identical. Real data would be smoother.
+* **Business impact figures depend on assumptions**, not measurements. They are labelled as such.
 * **Human approvals are simulated** (always approved, flagged `simulated=true`) so the flow can be measured end
   to end.
 * Single currency (USD) and one fiscal year.
+
+## Notes from the author
+
+I used Claude (an AI assistant) while building this project. I reviewed the rules, ran the tests, and checked the
+results myself. My own design decisions are written down in [`docs/decisions.md`](docs/decisions.md).
+A two-minute demo script is in [`docs/DEMO.md`](docs/DEMO.md).
 
 See `docs/architecture.md` for the design and `docs/data_dictionary.md` for every field.

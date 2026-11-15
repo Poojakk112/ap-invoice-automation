@@ -63,6 +63,25 @@
     </div>
   </section>
 
+  <section class="panel" id="whatifPanel">
+    <h2>What-if: how strict should the price rule be?</h2>
+    <p class="muted small">The same invoices replayed under different price tolerances. Stricter blocks more good invoices; looser pays more overcharge.</p>
+    <div class="scroll"><table id="whatif"></table></div>
+  </section>
+
+  <section class="grid2">
+    <div class="panel" id="robustPanel">
+      <h2>Robustness: damaged documents</h2>
+      <p class="muted small" id="robustLead"></p>
+      <div class="scroll"><table id="robust"></table></div>
+    </div>
+    <div class="panel" id="impactPanel">
+      <h2>Business impact estimate</h2>
+      <p class="muted small">Measured results combined with labelled assumptions (editable in <code>backend/config/assumptions.json</code>).</p>
+      <table id="impact"></table>
+    </div>
+  </section>
+
   <section class="panel">
     <h2>Exception detection vs ground truth</h2>
     <div class="scroll"><table id="detection"></table></div>

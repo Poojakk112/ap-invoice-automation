@@ -129,8 +129,55 @@ def cmd_docs(args):
     return 0
 
 
+def _publish(out_dir, name, files):
+    """Copy key reports of the full dataset to docs/results so they are visible on GitHub."""
+    if name != "full":
+        return
+    target = ROOT / "docs" / "results"
+    target.mkdir(parents=True, exist_ok=True)
+    for f in files:
+        shutil.copyfile(out_dir / f, target / f)
+
+
+def cmd_whatif(args):
+    from apflow import whatif
+    policy = load_policy(args.policy, scale=args.scale, seed=args.seed)
+    data_dir, out_dir, name = _paths(args)
+    r = whatif.run_whatif(data_dir, policy)
+    whatif.save(r, out_dir)
+    _publish(out_dir, name, ["whatif.md"])
+    print("[whatif] price tolerance -> touchless / good invoices blocked / overcharge paid")
+    for x in r["rows"]:
+        print(f"   {x['tolerance_pct']:>4.0f}%{'*' if x['current_policy'] else ' '} {x['touchless_rate']:>6.1%}  "
+              f"{x['good_invoices_blocked']:>4}  ${float(x['overcharge_paid_usd']):>10,.2f}")
+    return 0
+
+
+def cmd_robustness(args):
+    from apflow import robustness
+    policy = load_policy(args.policy, scale=args.scale, seed=args.seed)
+    data_dir, out_dir, name = _paths(args)
+    r = robustness.run_robustness(data_dir, policy)
+    robustness.save(r, out_dir)
+    _publish(out_dir, name, ["robustness.md"])
+    print(f"[robustness] {r['documents_damaged']} damaged documents, {r['unsafe_payments']} unsafe payments")
+    return 0 if r["unsafe_payments"] == 0 else 1
+
+
+def cmd_impact(args):
+    from apflow import impact
+    _, out_dir, name = _paths(args)
+    metrics = json.loads((out_dir / "metrics.json").read_text(encoding="utf-8"))
+    r = impact.compute_impact(metrics)
+    impact.save(r, out_dir, name)
+    _publish(out_dir, name, ["impact.md"])
+    print(f"[impact] {r['hours_saved']:,.0f} hours saved (assumption-based), {r['fte_freed']} FTE")
+    return 0
+
+
 def cmd_all(args):
-    for step in (cmd_generate, cmd_validate, cmd_run, cmd_evaluate, cmd_reproduce):
+    for step in (cmd_generate, cmd_validate, cmd_run, cmd_evaluate, cmd_whatif, cmd_robustness, cmd_impact,
+                 cmd_reproduce):
         code = step(args)
         if code:
             return code
@@ -142,7 +189,8 @@ def main(argv=None):
     sub = ap.add_subparsers(dest="cmd", required=True)
     for name, fn in [("generate", cmd_generate), ("validate", cmd_validate), ("run", cmd_run),
                      ("evaluate", cmd_evaluate), ("reproduce", cmd_reproduce), ("all", cmd_all),
-                     ("explain", cmd_explain), ("docs", cmd_docs)]:
+                     ("explain", cmd_explain), ("docs", cmd_docs), ("whatif", cmd_whatif),
+                     ("robustness", cmd_robustness), ("impact", cmd_impact)]:
         p = sub.add_parser(name)
         p.add_argument("--scale", type=float, default=1.0, help="1.0 = full volume, 0.1 = starter")
         p.add_argument("--seed", type=int, default=None, help="override seed in config/policy.json")

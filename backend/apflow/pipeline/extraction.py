@@ -152,11 +152,24 @@ def _extract_c(c):
         raise ExtractionError(f"missing field: {exc.args[0]}") from exc
 
 
+_ITEM_START = re.compile(r"^(?:\d+ \| SKU-|- SKU-|LINE\|)", re.M)
+
+
+def normalise_text(content: str) -> str:
+    """Windows/Mac line endings and trailing spaces must not change the result."""
+    text = content.replace("\r\n", "\n").replace("\r", "\n")
+    return "\n".join(line.rstrip() for line in text.split("\n"))
+
+
 def extract(content: str) -> ExtractedInvoice:
+    content = normalise_text(content)
     layout = detect_layout(content)
     inv = {"A": _extract_a, "B": _extract_b, "C": _extract_c}[layout](content)
     if not inv.lines:
         raise ExtractionError("no invoice lines found")
+    seen = len(_ITEM_START.findall(content))
+    if seen != len(inv.lines):      # never silently drop a line we could not read
+        raise ExtractionError(f"{seen} item lines found but only {len(inv.lines)} could be read")
     return inv
 
 

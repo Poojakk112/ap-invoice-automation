@@ -1,0 +1,123 @@
+{
+  "by_damage_type": {
+    "digit_changed_line_amount": {
+      "caught_by": {
+        "DUPLICATE_EXACT": 5,
+        "DUPLICATE_NUMBER": 4,
+        "TOTAL_MISMATCH": 139,
+        "VENDOR_INACTIVE": 2
+      },
+      "collateral_decision_changes": 0,
+      "description": "One digit in an item line amount is wrong (OCR misread)",
+      "documents_damaged": 150,
+      "outcomes": {
+        "HANDLED_OK": 0,
+        "SAFE_FAILURE": 103,
+        "STILL_BLOCKED": 47,
+        "UNSAFE_PAYMENT": 0
+      },
+      "unsafe_examples": [],
+      "unsafe_payment_rate": 0.0
+    },
+    "digit_changed_total": {
+      "caught_by": {
+        "DUPLICATE_EXACT": 1,
+        "DUPLICATE_NUMBER": 7,
+        "TOTAL_MISMATCH": 140,
+        "VENDOR_INACTIVE": 2
+      },
+      "collateral_decision_changes": 0,
+      "description": "One digit in the invoice total is wrong",
+      "documents_damaged": 150,
+      "outcomes": {
+        "HANDLED_OK": 0,
+        "SAFE_FAILURE": 102,
+        "STILL_BLOCKED": 48,
+        "UNSAFE_PAYMENT": 0
+      },
+      "unsafe_examples": [],
+      "unsafe_payment_rate": 0.0
+    },
+    "letter_for_digit": {
+      "caught_by": {
+        "EXTRACTION_FAILED": 150
+      },
+      "collateral_decision_changes": 6,
+      "description": "A digit in an item amount is read as a letter (O for 0, l for 1, ...)",
+      "documents_damaged": 150,
+      "outcomes": {
+        "HANDLED_OK": 0,
+        "SAFE_FAILURE": 150,
+        "STILL_BLOCKED": 0,
+        "UNSAFE_PAYMENT": 0
+      },
+      "unsafe_examples": [],
+      "unsafe_payment_rate": 0.0
+    },
+    "messy_whitespace": {
+      "caught_by": {
+        "DATE_BEFORE_PO": 1,
+        "DUPLICATE_EXACT": 4,
+        "DUPLICATE_NUMBER": 1,
+        "MISSING_RECEIPT": 7,
+        "PRICE_VARIANCE": 12,
+        "QTY_EXCEEDS_PO": 3,
+        "QTY_EXCEEDS_RECEIVED": 9,
+        "TAX_MISMATCH": 2,
+        "TOTAL_MISMATCH": 1,
+        "VENDOR_INACTIVE": 2
+      },
+      "collateral_decision_changes": 0,
+      "description": "Windows line endings and trailing spaces",
+      "documents_damaged": 150,
+      "outcomes": {
+        "HANDLED_OK": 108,
+        "SAFE_FAILURE": 0,
+        "STILL_BLOCKED": 42,
+        "UNSAFE_PAYMENT": 0
+      },
+      "unsafe_examples": [],
+      "unsafe_payment_rate": 0.0
+    },
+    "missing_po_reference": {
+      "caught_by": {
+        "DUPLICATE_EXACT": 5,
+        "DUPLICATE_NUMBER": 2,
+        "PO_REQUIRED": 141,
+        "VENDOR_INACTIVE": 2
+      },
+      "collateral_decision_changes": 0,
+      "description": "The PO number is blank or unreadable",
+      "documents_damaged": 150,
+      "outcomes": {
+        "HANDLED_OK": 0,
+        "SAFE_FAILURE": 103,
+        "STILL_BLOCKED": 47,
+        "UNSAFE_PAYMENT": 0
+      },
+      "unsafe_examples": [],
+      "unsafe_payment_rate": 0.0
+    },
+    "missing_total": {
+      "caught_by": {
+        "EXTRACTION_FAILED": 150
+      },
+      "collateral_decision_changes": 2,
+      "description": "The total line is missing (page cut off)",
+      "documents_damaged": 150,
+      "outcomes": {
+        "HANDLED_OK": 0,
+        "SAFE_FAILURE": 150,
+        "STILL_BLOCKED": 0,
+        "UNSAFE_PAYMENT": 0
+      },
+      "unsafe_examples": [],
+      "unsafe_payment_rate": 0.0
+    }
+  },
+  "documents_damaged": 900,
+  "safe_handling_rate": 1.0,
+  "sample_per_type": 150,
+  "seed": 20261022,
+  "unsafe_payments": 0
+}

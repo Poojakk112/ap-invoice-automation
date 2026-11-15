@@ -1,0 +1,79 @@
+{
+  "current_tolerance_pct": 2.0,
+  "invoices": 200,
+  "reading_guide": "Stricter tolerance: more good invoices need a person. Looser tolerance: more overcharge is paid. 'Good invoices blocked' counts invoices the ground truth marks payable that were stopped. Note: the synthetic price variances are either under 1.5% or over 3%, so 2% and 3% give identical results; real data would be smoother.",
+  "rows": [
+    {
+      "current_policy": false,
+      "good_invoices_blocked": 11,
+      "needs_human": 71,
+      "overcharge_paid_usd": "0.00",
+      "overcharge_stopped_usd": "19880.49",
+      "payment_ready": 129,
+      "price_variance_flags": 31,
+      "price_variances_missed": 0,
+      "tolerance_pct": 0.0,
+      "touchless_rate": 0.645
+    },
+    {
+      "current_policy": false,
+      "good_invoices_blocked": 2,
+      "needs_human": 62,
+      "overcharge_paid_usd": "333.22",
+      "overcharge_stopped_usd": "19547.27",
+      "payment_ready": 138,
+      "price_variance_flags": 22,
+      "price_variances_missed": 0,
+      "tolerance_pct": 1.0,
+      "touchless_rate": 0.69
+    },
+    {
+      "current_policy": true,
+      "good_invoices_blocked": 0,
+      "needs_human": 60,
+      "overcharge_paid_usd": "410.65",
+      "overcharge_stopped_usd": "19469.84",
+      "payment_ready": 140,
+      "price_variance_flags": 20,
+      "price_variances_missed": 0,
+      "tolerance_pct": 2.0,
+      "touchless_rate": 0.7
+    },
+    {
+      "current_policy": false,
+      "good_invoices_blocked": 0,
+      "needs_human": 60,
+      "overcharge_paid_usd": "410.65",
+      "overcharge_stopped_usd": "19469.84",
+      "payment_ready": 140,
+      "price_variance_flags": 20,
+      "price_variances_missed": 0,
+      "tolerance_pct": 3.0,
+      "touchless_rate": 0.7
+    },
+    {
+      "current_policy": false,
+      "good_invoices_blocked": 0,
+      "needs_human": 59,
+      "overcharge_paid_usd": "467.26",
+      "overcharge_stopped_usd": "19413.23",
+      "payment_ready": 141,
+      "price_variance_flags": 19,
+      "price_variances_missed": 1,
+      "tolerance_pct": 5.0,
+      "touchless_rate": 0.705
+    },
+    {
+      "current_policy": false,
+      "good_invoices_blocked": 0,
+      "needs_human": 54,
+      "overcharge_paid_usd": "1218.72",
+      "overcharge_stopped_usd": "18661.77",
+      "payment_ready": 146,
+      "price_variance_flags": 14,
+      "price_variances_missed": 6,
+      "tolerance_pct": 10.0,
+      "touchless_rate": 0.73
+    }
+  ]
+}

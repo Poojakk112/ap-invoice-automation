@@ -25,6 +25,8 @@ EXCEPTIONS = {
                        "Invoice is dated before the purchase order"),
     "PO_NOT_FOUND": ("BLOCK", "PROCUREMENT", "HEADER_ERROR",
                      "Referenced PO does not exist"),
+    "PO_REQUIRED": ("BLOCK", "PROCUREMENT", "HEADER_ERROR",
+                    "Goods invoice has no PO reference, so it cannot be 3-way matched"),
     "TAX_MISMATCH": ("BLOCK", "TAX_TEAM", "TAX_VARIANCE",
                      "Tax code differs from PO or tax amount does not reconcile"),
     "LINE_NOT_ON_PO": ("BLOCK", "PROCUREMENT", "QUANTITY_VARIANCE",
@@ -43,7 +45,7 @@ EXCEPTIONS = {
 # the primary queue (most fundamental problem first).
 PRECEDENCE = [
     "EXTRACTION_FAILED", "DUPLICATE_EXACT", "DUPLICATE_NUMBER", "VENDOR_UNKNOWN", "VENDOR_INACTIVE",
-    "VENDOR_PO_MISMATCH", "PO_NOT_FOUND", "TOTAL_MISMATCH", "DATE_BEFORE_PO",
+    "VENDOR_PO_MISMATCH", "PO_NOT_FOUND", "PO_REQUIRED", "TOTAL_MISMATCH", "DATE_BEFORE_PO",
     "TAX_MISMATCH", "MISSING_RECEIPT", "LINE_NOT_ON_PO", "QTY_EXCEEDS_PO",
     "QTY_EXCEEDS_RECEIVED", "PRICE_VARIANCE",
 ]

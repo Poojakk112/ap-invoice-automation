@@ -36,6 +36,12 @@ def load_inputs(data_dir: Path) -> dict:
     return tables
 
 
+def decide(tables: dict, policy: Policy, docs: list | None = None) -> list:
+    """Process documents in intake order without writing any files (used by what-if and robustness)."""
+    engine = DecisionEngine(Context(tables, policy), policy)
+    return [engine.process(d) for d in (tables["_documents"] if docs is None else docs)]
+
+
 def run_pipeline(data_dir, out_dir, policy: Policy) -> dict:
     data_dir, out_dir = Path(data_dir), Path(out_dir)
     out_dir.mkdir(parents=True, exist_ok=True)

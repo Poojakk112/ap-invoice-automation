@@ -131,3 +131,13 @@ def test_payment_guard_refuses_blocked_invoice():
     d.final_state = "EXCEPTION_ROUTED"
     with pytest.raises(PaymentSafetyError):
         DecisionEngine._mark_payment_ready(d)
+
+
+def test_goods_invoice_without_po_is_blocked_but_service_invoice_is_allowed():
+    """Found by the robustness test: a blank PO reference must not bypass the 3-way match."""
+    d = world().process(doc(po=None))
+    assert d.codes == ["PO_REQUIRED"] and d.route_queue == "PROCUREMENT" and not d.payment_ready
+    svc = doc(po=None)
+    svc["content"] = svc["content"].replace("SKU-ITH-0001", "SKU-SRV-0001")
+    ok = world().process(svc)
+    assert ok.codes == [] and ok.payment_ready and ok.approval_roles == ["DEPT_MANAGER"]   # non-PO needs a human

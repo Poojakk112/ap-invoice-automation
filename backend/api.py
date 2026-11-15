@@ -150,6 +150,31 @@ def queues(dataset: str = "full"):
     return _query(dataset, "SELECT * FROM exception_queue")
 
 
+def _report(dataset: str, name: str):
+    data = _json(_out_dir(dataset) / name)
+    if data is None:
+        raise HTTPException(404, f"{name} not found - run: python -m apflow all")
+    return data
+
+
+@app.get("/api/whatif")
+def whatif(dataset: str = "full"):
+    """Price-tolerance what-if: touchless rate vs good invoices blocked vs overcharge paid."""
+    return _report(dataset, "whatif.json")
+
+
+@app.get("/api/robustness")
+def robustness(dataset: str = "full"):
+    """Damaged-document test: how each kind of damage is handled; unsafe payments must be 0."""
+    return _report(dataset, "robustness.json")
+
+
+@app.get("/api/impact")
+def impact(dataset: str = "full"):
+    """Business impact estimate; every row says whether it is measured or an assumption."""
+    return _report(dataset, "impact.json")
+
+
 class RunRequest(BaseModel):
     scale: float = Field(0.1, gt=0, le=2.0, description="1.0 = full volume")
     seed: int | None = None
@@ -160,7 +185,8 @@ class RunRequest(BaseModel):
 def run_pipeline(req: RunRequest):
     """Generate -> validate -> run -> evaluate -> reproduce, then return the new summary."""
     args = Namespace(scale=req.scale, seed=req.seed, name=req.name, policy=None)
-    for step in (cli.cmd_generate, cli.cmd_validate, cli.cmd_run, cli.cmd_evaluate, cli.cmd_reproduce):
+    for step in (cli.cmd_generate, cli.cmd_validate, cli.cmd_run, cli.cmd_evaluate, cli.cmd_whatif,
+                 cli.cmd_robustness, cli.cmd_impact, cli.cmd_reproduce):
         if step(args) != 0:
             raise HTTPException(500, f"step {step.__name__} failed - see server log")
     return summary(req.name)

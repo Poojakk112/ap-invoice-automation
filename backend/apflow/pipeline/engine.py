@@ -142,6 +142,8 @@ class DecisionEngine:
         self._check_arithmetic(d, ext)
         if ext.po_number:
             self._three_way_match(d, ext, vendor)
+        else:
+            self._check_non_po_allowed(d, ext)
         if d.issues:
             return self._route(d, "VALIDATED")
         return self._approve_and_release(d, vendor)
@@ -216,6 +218,14 @@ class DecisionEngine:
             d.issues.append(Issue("TAX_MISMATCH", f"stated tax {ext.tax_total} != tax by code {computed_tax}",
                                   expected=str(computed_tax), actual=str(ext.tax_total),
                                   value_at_risk=max(ext.tax_total - computed_tax, Decimal("0"))))
+
+    def _check_non_po_allowed(self, d, ext):
+        """Only services may be billed without a PO. A goods invoice with a blank/unreadable PO
+        must not skip the 3-way match (found by the robustness test)."""
+        goods = [ln.sku for ln in ext.lines if not ln.sku.startswith(self.p.non_po_sku_prefixes)]
+        if goods:
+            d.issues.append(Issue("PO_REQUIRED", f"no PO reference but goods items billed ({goods[0]}...)",
+                                  expected="PO number", actual="none", value_at_risk=ext.stated_total))
 
     def _three_way_match(self, d, ext, vendor):
         ctx, tol = self.ctx, self.p.price_tolerance_pct

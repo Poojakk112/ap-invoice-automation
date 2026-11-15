@@ -50,6 +50,7 @@ class Policy:
     tax_rates: dict
     approval_matrix: list
     non_po_minimum_tier: int
+    non_po_sku_prefixes: tuple = ()
     source_path: str = ""
     scale: float = 1.0
     extra: dict = field(default_factory=dict)
@@ -95,6 +96,7 @@ def load_policy(path=None, scale: float = 1.0, seed: int | None = None) -> Polic
         tax_rates={k: Decimal(v) for k, v in raw["tax_codes"].items()},
         approval_matrix=raw["approval_matrix"],
         non_po_minimum_tier=int(raw["non_po_minimum_tier"]),
+        non_po_sku_prefixes=tuple(raw.get("non_po_allowed_sku_prefixes", ["SKU-SRV-"])),
         source_path=str(path),
         scale=scale,
     )
