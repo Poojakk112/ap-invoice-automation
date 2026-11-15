@@ -78,8 +78,8 @@ docs/        Architecture and data dictionary
 You need Python 3.10 or newer.
 
 ```bash
-git clone <your-repo-url>
-cd <repo-folder>
+git clone https://github.com/Poojakk112/ap-invoice-automation.git
+cd ap-invoice-automation
 python -m venv .venv
 # Windows:  .venv\Scripts\activate        macOS/Linux:  source .venv/bin/activate
 pip install -r backend/requirements.txt
