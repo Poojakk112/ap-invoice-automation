@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AP Invoice Automation</title>
+  <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="logo">AP</span>
+    <div>
+      <h1>Invoice Automation</h1>
+      <p class="muted">Intake · Extraction · 3-way match · Exceptions · Payment readiness</p>
+    </div>
+  </div>
+  <div class="controls">
+    <label>Dataset <select id="dataset"></select></label>
+    <button id="runBtn" class="btn" title="Regenerate data and rerun the full pipeline">Run pipeline</button>
+  </div>
+</header>
+
+<main>
+  <div id="banner" class="banner hidden"></div>
+
+  <section class="cards" id="kpis"></section>
+
+  <section class="grid2">
+    <div class="panel">
+      <h2>Work queues</h2>
+      <p class="muted small">Blocked invoices by owning team, with value at risk.</p>
+      <table id="queues"></table>
+    </div>
+    <div class="panel">
+      <h2>Acceptance criteria</h2>
+      <p class="muted small">Share of invoices where the pipeline agrees with policy and ground truth.</p>
+      <table id="acceptance"></table>
+    </div>
+  </section>
+
+  <section class="panel">
+    <div class="panel-head">
+      <h2>Invoices</h2>
+      <div class="filters">
+        <input id="search" type="search" placeholder="Search invoice, vendor, PO, number">
+        <select id="stateFilter">
+          <option value="">All states</option>
+          <option value="PAYMENT_READY">Payment ready</option>
+          <option value="EXCEPTION_ROUTED">Exception routed</option>
+          <option value="DUPLICATE_BLOCKED">Duplicate blocked</option>
+        </select>
+        <select id="queueFilter"><option value="">All queues</option></select>
+      </div>
+    </div>
+    <div class="scroll">
+      <table id="invoices" class="clickable"></table>
+    </div>
+    <div class="pager">
+      <button id="prev" class="btn ghost">Previous</button>
+      <span id="pageInfo" class="muted"></span>
+      <button id="next" class="btn ghost">Next</button>
+    </div>
+  </section>
+
+  <section class="panel">
+    <h2>Exception detection vs ground truth</h2>
+    <div class="scroll"><table id="detection"></table></div>
+  </section>
+</main>
+
+<aside id="drawer" class="drawer hidden" aria-label="Invoice detail">
+  <div class="drawer-head">
+    <h2 id="drawerTitle">Invoice</h2>
+    <button id="closeDrawer" class="btn ghost" aria-label="Close">Close</button>
+  </div>
+  <div id="drawerBody"></div>
+</aside>
+<div id="scrim" class="scrim hidden"></div>
+
+<script src="/static/app.js"></script>
+</body>
+</html>
