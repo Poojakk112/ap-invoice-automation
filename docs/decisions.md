@@ -1,21 +1,13 @@
 # Design decisions
 
-Short notes on why the project is built this way. Edit these in your own words.
+Short notes on why I built the project this way, in my own words.
 
-1. **Duplicate check comes first.** A duplicate must not use up PO quantity or receipts, otherwise it could hide a
-   real over-billing on the next invoice.
-2. **Quantities are checked cumulatively across invoices.** A PO billed in two invoices of 6 + 6 against an order
-   of 10 must be caught, even though each invoice alone looks fine.
-3. **Labels come from rules, not randomness.** The generator records which problem it injected, and the expected
-   outcome is derived from one rule table. This keeps the ground truth consistent with the policy.
-4. **The pipeline never reads the answers.** `input/` holds only what a real system would receive. `reference/`
-   and `ground_truth/` are used only for scoring.
-5. **A blocked invoice cannot become payable.** The release step raises an error if anything tries it, so the
-   control does not depend on every code path being correct.
-6. **Policy lives in a settings file.** Tolerances, tax codes and approval limits are in `policy.json`, so a
-   process owner can change them without touching code.
-7. **Failures are loud.** An unreadable document or item line becomes an exception for a person. It is never
-   guessed or dropped.
-8. **I tested the system by damaging it.** The robustness test found that a blank PO number skipped the 3-way
-   match. That is now blocked, with a test to keep it fixed.
-9. **Impact numbers are marked as assumptions.** Measured and assumed values are labelled separately.
+1. **I check duplicates first.** A duplicate should not use up the PO quantity or the receipts. If it did, a real over-billing on the next invoice could be missed.
+2. **I count quantities across all invoices of a PO.** A PO for 10 units billed as 6 + 6 looks fine one invoice at a time, but it is over-billing.
+3. **Expected results come from rules, not luck.** The generator remembers which mistake it added, and the correct outcome comes from one rule table.
+4. **The pipeline never sees the answers.** It only reads the input folder. The answers are used afterwards, only to score it.
+5. **A blocked invoice can never become payable.** The code raises an error if anything tries, so safety does not depend on every other line being right.
+6. **Rules live in a settings file.** A business owner can change a tolerance or an approval limit without touching code.
+7. **Failures are loud.** If a document or a line cannot be read, a person gets an exception. The system never guesses.
+8. **I tested the system by damaging it.** The test found that a blank PO number skipped the 3-way match. It is now blocked, and a test keeps it fixed.
+9. **Impact numbers are labelled.** Measured values and assumptions are shown separately.
