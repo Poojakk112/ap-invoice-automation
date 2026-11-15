@@ -1,0 +1,1402 @@
+[
+  {
+    "approval_id": "APR-2026-000001",
+    "approver_id": "MGR-CC-1210",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-02-01",
+    "decision": "APPROVED",
+    "invoice_id": "INV-NOR01-2026-000002",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000002",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-02-02",
+    "decision": "APPROVED",
+    "invoice_id": "INV-PRA02-2026-000004",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000003",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-02-07",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID01-2026-000007",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000004",
+    "approver_id": "MGR-CC-2001",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-02-19",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU03-2026-000009",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000005",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-02-18",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000010",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000006",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-02-21",
+    "decision": "APPROVED",
+    "invoice_id": "INV-PRA02-2026-000012",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000007",
+    "approver_id": "MGR-CC-1002",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-02-25",
+    "decision": "APPROVED",
+    "invoice_id": "INV-LAK01-2026-000013",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000008",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-02-26",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000014",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000009",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-02-28",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ORC01-2026-000015",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000010",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-02-28",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000016",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000011",
+    "approver_id": "MGR-CC-4100",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-03-05",
+    "decision": "APPROVED",
+    "invoice_id": "INV-PRA02-2026-000018",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000012",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-04",
+    "decision": "APPROVED",
+    "invoice_id": "INV-UNI01-2026-000020",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000013",
+    "approver_id": "MGR-CC-3100",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-03-07",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000021",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000014",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-08",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000022",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000015",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-08",
+    "decision": "APPROVED",
+    "invoice_id": "INV-APE01-2026-000023",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000016",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-09",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000024",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000017",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-10",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000025",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000018",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-11",
+    "decision": "APPROVED",
+    "invoice_id": "INV-APE01-2026-000026",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000019",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-11",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000027",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000020",
+    "approver_id": "MGR-CC-4100",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-03-17",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000029",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000021",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-15",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000030",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000022",
+    "approver_id": "MGR-CC-1001",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-03-19",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ORC01-2026-000032",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000023",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-16",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ZEN01-2026-000033",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000024",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-19",
+    "decision": "APPROVED",
+    "invoice_id": "INV-APE02-2026-000035",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000025",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-19",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000036",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000026",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-20",
+    "decision": "APPROVED",
+    "invoice_id": "INV-PRA01-2026-000037",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000027",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-21",
+    "decision": "APPROVED",
+    "invoice_id": "INV-PRA02-2026-000038",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000028",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-23",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000039",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000029",
+    "approver_id": "MGR-CC-1002",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-03-27",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000040",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000030",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-26",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO02-2026-000041",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000031",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-28",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000043",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000032",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-29",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000044",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000033",
+    "approver_id": "MGR-CC-3300",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-04-01",
+    "decision": "APPROVED",
+    "invoice_id": "INV-HAR01-2026-000045",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000034",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-30",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO02-2026-000047",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000035",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-30",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO02-2026-000048",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000036",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-03-31",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ZEN01-2026-000049",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000037",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-01",
+    "decision": "APPROVED",
+    "invoice_id": "INV-PRA02-2026-000050",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000038",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-03",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000052",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000039",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-04",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID01-2026-000053",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000040",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-05",
+    "decision": "APPROVED",
+    "invoice_id": "INV-NOR01-2026-000055",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000041",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-05",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BEA01-2026-000056",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000042",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-06",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000057",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000043",
+    "approver_id": "MGR-CC-1001",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-04-07",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000058",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000044",
+    "approver_id": "MGR-CC-3300",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-04-10",
+    "decision": "APPROVED",
+    "invoice_id": "INV-HAR01-2026-000059",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000045",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-09",
+    "decision": "APPROVED",
+    "invoice_id": "INV-EVE02-2026-000061",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000046",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-13",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000062",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000047",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-18",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000065",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000048",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-19",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000066",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000049",
+    "approver_id": "MGR-CC-3300",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-04-25",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000067",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000050",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-24",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000068",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000051",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-29",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000069",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000052",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-04-29",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000070",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000053",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-05-02",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000073",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000054",
+    "approver_id": "MGR-CC-5200",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-05-06",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO02-2026-000074",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000055",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-05-07",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID01-2026-000075",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000056",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-05-16",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ZEN01-2026-000079",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000057",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-05-17",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000080",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000058",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-05-23",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000082",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000059",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-05-26",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000083",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000060",
+    "approver_id": "MGR-CC-4100",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-05-31",
+    "decision": "APPROVED",
+    "invoice_id": "INV-SUM01-2026-000084",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000061",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-02",
+    "decision": "APPROVED",
+    "invoice_id": "INV-NOR01-2026-000085",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000062",
+    "approver_id": "MGR-CC-2050",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-06-08",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000086",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000063",
+    "approver_id": "MGR-CC-5200",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-06-13",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000088",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000064",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-11",
+    "decision": "APPROVED",
+    "invoice_id": "INV-EVE01-2026-000089",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000065",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-12",
+    "decision": "APPROVED",
+    "invoice_id": "INV-APE01-2026-000092",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000066",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-12",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BEA01-2026-000093",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000067",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-12",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BEA01-2026-000094",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000068",
+    "approver_id": "MGR-CC-3300",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-06-14",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000095",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000069",
+    "approver_id": "MGR-CC-4100",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-06-17",
+    "decision": "APPROVED",
+    "invoice_id": "INV-NOR01-2026-000097",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000070",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-17",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000098",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000071",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-22",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU01-2026-000099",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000072",
+    "approver_id": "MGR-CC-3300",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-06-26",
+    "decision": "APPROVED",
+    "invoice_id": "INV-APE02-2026-000101",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000073",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-24",
+    "decision": "APPROVED",
+    "invoice_id": "INV-HAR01-2026-000103",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000074",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-25",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000104",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000075",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-28",
+    "decision": "APPROVED",
+    "invoice_id": "INV-EVE02-2026-000108",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000076",
+    "approver_id": "MGR-CC-1002",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-07-01",
+    "decision": "APPROVED",
+    "invoice_id": "INV-WES03-2026-000110",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000077",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-29",
+    "decision": "APPROVED",
+    "invoice_id": "INV-CED01-2026-000111",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000078",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-30",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000113",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000079",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-06-30",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU01-2026-000114",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000080",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-01",
+    "decision": "APPROVED",
+    "invoice_id": "INV-WES02-2026-000115",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000081",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-01",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000116",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000082",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-03",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000117",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000083",
+    "approver_id": "MGR-CC-2001",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-07-06",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000118",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000084",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-07",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000121",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000085",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-10",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000123",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000086",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-10",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ZEN01-2026-000124",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000087",
+    "approver_id": "MGR-CC-1001",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-07-12",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BEA01-2026-000125",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000088",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-13",
+    "decision": "APPROVED",
+    "invoice_id": "INV-UNI01-2026-000127",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000089",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-14",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO02-2026-000128",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000090",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-15",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ZEN02-2026-000129",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000091",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-17",
+    "decision": "APPROVED",
+    "invoice_id": "INV-GRA01-2026-000131",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000092",
+    "approver_id": "MGR-CC-2050",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-07-19",
+    "decision": "APPROVED",
+    "invoice_id": "INV-PRA01-2026-000132",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000093",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-17",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000133",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000094",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-18",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ZEN02-2026-000135",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000095",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-22",
+    "decision": "APPROVED",
+    "invoice_id": "INV-GRA01-2026-000137",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000096",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-22",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000138",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000097",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-07-23",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000139",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000098",
+    "approver_id": "MGR-CC-3300",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-07-26",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ZEN01-2026-000140",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000099",
+    "approver_id": "MGR-CC-1002",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-07-25",
+    "decision": "APPROVED",
+    "invoice_id": "INV-SUM01-2026-000141",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000100",
+    "approver_id": "MGR-CC-1105",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-07-30",
+    "decision": "APPROVED",
+    "invoice_id": "INV-APE02-2026-000143",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000101",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-01",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000145",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000102",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-05",
+    "decision": "APPROVED",
+    "invoice_id": "INV-NOR01-2026-000147",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000103",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-06",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000148",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000104",
+    "approver_id": "MGR-CC-3100",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-08-12",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000150",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000105",
+    "approver_id": "MGR-CC-1002",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-08-13",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000152",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000106",
+    "approver_id": "MGR-CC-1105",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-08-19",
+    "decision": "APPROVED",
+    "invoice_id": "INV-EVE01-2026-000154",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000107",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-18",
+    "decision": "APPROVED",
+    "invoice_id": "INV-EVE01-2026-000155",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000108",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-18",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000156",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000109",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-18",
+    "decision": "APPROVED",
+    "invoice_id": "INV-NOR01-2026-000157",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000110",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-19",
+    "decision": "APPROVED",
+    "invoice_id": "INV-NOR01-2026-000158",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000111",
+    "approver_id": "MGR-CC-1001",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-08-23",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000160",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000112",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-23",
+    "decision": "APPROVED",
+    "invoice_id": "INV-EVE01-2026-000162",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000113",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-24",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000163",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000114",
+    "approver_id": "MGR-CC-2001",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-08-26",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000164",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000115",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-26",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000165",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000116",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-27",
+    "decision": "APPROVED",
+    "invoice_id": "INV-WES03-2026-000166",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000117",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-08-28",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000167",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000118",
+    "approver_id": "MGR-CC-4100",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-08-30",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000168",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000119",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-01",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000170",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000120",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-02",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000172",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000121",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-04",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO02-2026-000174",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000122",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-05",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO01-2026-000176",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000123",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-08",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000177",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000124",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-08",
+    "decision": "APPROVED",
+    "invoice_id": "INV-EVE01-2026-000178",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000125",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-12",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ORC01-2026-000180",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000126",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-12",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000181",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000127",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-14",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000182",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000128",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-15",
+    "decision": "APPROVED",
+    "invoice_id": "INV-ZEN01-2026-000183",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000129",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-15",
+    "decision": "APPROVED",
+    "invoice_id": "INV-UNI01-2026-000184",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000130",
+    "approver_id": "MGR-CC-2001",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-09-19",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000186",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000131",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-17",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000188",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000132",
+    "approver_id": "MGR-CC-1210",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-09-18",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FAL02-2026-000189",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000133",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-20",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000190",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000134",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-22",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO02-2026-000191",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000135",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-23",
+    "decision": "APPROVED",
+    "invoice_id": "INV-WES02-2026-000192",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000136",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-09-24",
+    "decision": "APPROVED",
+    "invoice_id": "INV-FRO02-2026-000193",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000137",
+    "approver_id": "MGR-CC-5200",
+    "approver_role": "DEPT_MANAGER",
+    "decided_date": "2026-09-27",
+    "decision": "APPROVED",
+    "invoice_id": "INV-PRA01-2026-000195",
+    "level": "1",
+    "policy_tier": "2"
+  },
+  {
+    "approval_id": "APR-2026-000138",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-10-02",
+    "decision": "APPROVED",
+    "invoice_id": "INV-TID02-2026-000197",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000139",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-10-03",
+    "decision": "APPROVED",
+    "invoice_id": "INV-PRA01-2026-000199",
+    "level": "1",
+    "policy_tier": "1"
+  },
+  {
+    "approval_id": "APR-2026-000140",
+    "approver_id": "SYSTEM",
+    "approver_role": "SYSTEM_AUTO",
+    "decided_date": "2026-10-10",
+    "decision": "APPROVED",
+    "invoice_id": "INV-BLU02-2026-000200",
+    "level": "1",
+    "policy_tier": "1"
+  }
+]

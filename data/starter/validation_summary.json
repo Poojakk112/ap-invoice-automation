@@ -1,0 +1,727 @@
+{
+  "checks": [
+    {
+      "category": "schema",
+      "check": "vendors: required fields present",
+      "checked": 30,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "vendors: data types parse",
+      "checked": 30,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "vendors: allowed values",
+      "checked": 30,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "vendors: ID/format patterns",
+      "checked": 30,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "vendors: primary key + unique fields",
+      "checked": 30,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "purchase_orders: required fields present",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "purchase_orders: data types parse",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "purchase_orders: allowed values",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "purchase_orders: ID/format patterns",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "purchase_orders: primary key + unique fields",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "purchase_order_lines: required fields present",
+      "checked": 220,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "purchase_order_lines: data types parse",
+      "checked": 220,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "purchase_order_lines: allowed values",
+      "checked": 220,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "purchase_order_lines: ID/format patterns",
+      "checked": 220,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "purchase_order_lines: primary key + unique fields",
+      "checked": 220,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "purchase_order_events: required fields present",
+      "checked": 327,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "purchase_order_events: data types parse",
+      "checked": 327,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "purchase_order_events: allowed values",
+      "checked": 327,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "purchase_order_events: ID/format patterns",
+      "checked": 327,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "purchase_order_events: primary key + unique fields",
+      "checked": 327,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "goods_receipts: required fields present",
+      "checked": 180,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "goods_receipts: data types parse",
+      "checked": 180,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "goods_receipts: allowed values",
+      "checked": 180,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "goods_receipts: ID/format patterns",
+      "checked": 180,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "goods_receipts: primary key + unique fields",
+      "checked": 180,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "goods_receipt_lines: required fields present",
+      "checked": 234,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "goods_receipt_lines: data types parse",
+      "checked": 234,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "goods_receipt_lines: allowed values",
+      "checked": 234,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "goods_receipt_lines: ID/format patterns",
+      "checked": 234,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "goods_receipt_lines: primary key + unique fields",
+      "checked": 234,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "invoices: required fields present",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "invoices: data types parse",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "invoices: allowed values",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "invoices: ID/format patterns",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "invoices: primary key + unique fields",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "invoice_lines: required fields present",
+      "checked": 240,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "invoice_lines: data types parse",
+      "checked": 240,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "invoice_lines: allowed values",
+      "checked": 240,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "invoice_lines: ID/format patterns",
+      "checked": 240,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "invoice_lines: primary key + unique fields",
+      "checked": 240,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "approvals: required fields present",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "approvals: data types parse",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "approvals: allowed values",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "approvals: ID/format patterns",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "approvals: primary key + unique fields",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "payments: required fields present",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "payments: data types parse",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "payments: allowed values",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "payments: ID/format patterns",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "payments: primary key + unique fields",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "ground_truth: required fields present",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "schema",
+      "check": "ground_truth: data types parse",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "enums",
+      "check": "ground_truth: allowed values",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "ground_truth: ID/format patterns",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "keys",
+      "check": "ground_truth: primary key + unique fields",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "purchase_orders.vendor_id -> vendors.vendor_id",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "purchase_order_lines.po_id -> purchase_orders.po_id",
+      "checked": 220,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "purchase_order_events.po_id -> purchase_orders.po_id",
+      "checked": 327,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "goods_receipts.po_id -> purchase_orders.po_id",
+      "checked": 180,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "goods_receipts.vendor_id -> vendors.vendor_id",
+      "checked": 180,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "goods_receipt_lines.grn_id -> goods_receipts.grn_id",
+      "checked": 234,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "goods_receipt_lines.po_line_id -> purchase_order_lines.po_line_id",
+      "checked": 234,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "invoices.vendor_id -> vendors.vendor_id",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "invoices.po_id -> purchase_orders.po_id",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "invoice_lines.invoice_id -> invoices.invoice_id",
+      "checked": 240,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "invoice_lines.po_line_id -> purchase_order_lines.po_line_id",
+      "checked": 240,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "approvals.invoice_id -> invoices.invoice_id",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "payments.invoice_id -> invoices.invoice_id",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "payments.vendor_id -> vendors.vendor_id",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "ground_truth.invoice_id -> invoices.invoice_id",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "foreign_keys",
+      "check": "ground_truth.duplicate_of_invoice_id -> invoices.invoice_id",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "volume",
+      "check": "row counts equal configured volumes",
+      "checked": null,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "volume",
+      "check": "scenario mix equals target allocation",
+      "checked": null,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "structure",
+      "check": "every PO has 1-8 lines",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "structure",
+      "check": "PO line numbers contiguous and SKUs unique per PO",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "joins",
+      "check": "receipt lines belong to the receipt's PO and vendor",
+      "checked": 234,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "joins",
+      "check": "invoice lines reference PO lines of the invoice's PO; PO vendor = invoice vendor",
+      "checked": null,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ids",
+      "check": "invoice IDs embed vendor code; line IDs embed invoice ID",
+      "checked": null,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "arithmetic",
+      "check": "PO line and header totals reconcile",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "arithmetic",
+      "check": "invoice line, tax and grand totals reconcile (except labelled defects)",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "labels",
+      "check": "every TOTAL_MISMATCH label is a real mismatch",
+      "checked": null,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "derived",
+      "check": "received quantities, receipt status and PO status derived from GRNs",
+      "checked": 220,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "lifecycle",
+      "check": "PO event history follows allowed transitions and ends at current status",
+      "checked": 150,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "dates",
+      "check": "date ordering: onboarding <= PO <= receipt; invoice <= received <= as-of; closures",
+      "checked": null,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "duplicates",
+      "check": "duplicate vendor invoice numbers exist only as labelled pairs",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ground_truth",
+      "check": "one ground-truth row per invoice",
+      "checked": null,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "ground_truth",
+      "check": "no label columns in input/reference tables",
+      "checked": null,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "policy",
+      "check": "approvals exist only for eligible invoices and match the approval matrix",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "policy",
+      "check": "payments only for approved eligible invoices; amounts/dates derived",
+      "checked": 140,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    },
+    {
+      "category": "joins",
+      "check": "every invoice has exactly one raw document",
+      "checked": 200,
+      "examples": [],
+      "failures": 0,
+      "status": "PASS"
+    }
+  ],
+  "checks_failed": 0,
+  "checks_total": 90,
+  "passed": true
+}

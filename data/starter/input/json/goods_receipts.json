@@ -1,0 +1,1442 @@
+[
+  {
+    "grn_id": "GRN-2026-000001",
+    "line_count": "2",
+    "po_id": "PO-2026-000004",
+    "receipt_date": "2026-01-19",
+    "vendor_id": "VND-00025",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000002",
+    "line_count": "1",
+    "po_id": "PO-2026-000001",
+    "receipt_date": "2026-01-22",
+    "vendor_id": "VND-00003",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000003",
+    "line_count": "1",
+    "po_id": "PO-2026-000003",
+    "receipt_date": "2026-01-27",
+    "vendor_id": "VND-00010",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000004",
+    "line_count": "2",
+    "po_id": "PO-2026-000008",
+    "receipt_date": "2026-01-27",
+    "vendor_id": "VND-00009",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000005",
+    "line_count": "3",
+    "po_id": "PO-2026-000002",
+    "receipt_date": "2026-02-02",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000006",
+    "line_count": "1",
+    "po_id": "PO-2026-000003",
+    "receipt_date": "2026-02-02",
+    "vendor_id": "VND-00010",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000007",
+    "line_count": "1",
+    "po_id": "PO-2026-000001",
+    "receipt_date": "2026-02-03",
+    "vendor_id": "VND-00003",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000008",
+    "line_count": "1",
+    "po_id": "PO-2026-000009",
+    "receipt_date": "2026-02-04",
+    "vendor_id": "VND-00005",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000009",
+    "line_count": "1",
+    "po_id": "PO-2026-000005",
+    "receipt_date": "2026-02-05",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000010",
+    "line_count": "1",
+    "po_id": "PO-2026-000008",
+    "receipt_date": "2026-02-06",
+    "vendor_id": "VND-00009",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000011",
+    "line_count": "3",
+    "po_id": "PO-2026-000012",
+    "receipt_date": "2026-02-06",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000012",
+    "line_count": "1",
+    "po_id": "PO-2026-000011",
+    "receipt_date": "2026-02-09",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000013",
+    "line_count": "1",
+    "po_id": "PO-2026-000006",
+    "receipt_date": "2026-02-11",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000014",
+    "line_count": "1",
+    "po_id": "PO-2026-000007",
+    "receipt_date": "2026-02-13",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000015",
+    "line_count": "1",
+    "po_id": "PO-2026-000008",
+    "receipt_date": "2026-02-13",
+    "vendor_id": "VND-00009",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000016",
+    "line_count": "1",
+    "po_id": "PO-2026-000010",
+    "receipt_date": "2026-02-15",
+    "vendor_id": "VND-00021",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000017",
+    "line_count": "1",
+    "po_id": "PO-2026-000013",
+    "receipt_date": "2026-02-15",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000018",
+    "line_count": "1",
+    "po_id": "PO-2026-000006",
+    "receipt_date": "2026-02-18",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000019",
+    "line_count": "1",
+    "po_id": "PO-2026-000023",
+    "receipt_date": "2026-02-18",
+    "vendor_id": "VND-00009",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000020",
+    "line_count": "1",
+    "po_id": "PO-2026-000005",
+    "receipt_date": "2026-02-19",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000021",
+    "line_count": "1",
+    "po_id": "PO-2026-000013",
+    "receipt_date": "2026-02-20",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000022",
+    "line_count": "1",
+    "po_id": "PO-2026-000025",
+    "receipt_date": "2026-02-20",
+    "vendor_id": "VND-00013",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000023",
+    "line_count": "1",
+    "po_id": "PO-2026-000011",
+    "receipt_date": "2026-02-21",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000024",
+    "line_count": "2",
+    "po_id": "PO-2026-000015",
+    "receipt_date": "2026-02-23",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000025",
+    "line_count": "1",
+    "po_id": "PO-2026-000014",
+    "receipt_date": "2026-02-25",
+    "vendor_id": "VND-00008",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000026",
+    "line_count": "2",
+    "po_id": "PO-2026-000024",
+    "receipt_date": "2026-02-26",
+    "vendor_id": "VND-00018",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000027",
+    "line_count": "1",
+    "po_id": "PO-2026-000017",
+    "receipt_date": "2026-02-27",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000028",
+    "line_count": "2",
+    "po_id": "PO-2026-000016",
+    "receipt_date": "2026-02-28",
+    "vendor_id": "VND-00001",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000029",
+    "line_count": "1",
+    "po_id": "PO-2026-000023",
+    "receipt_date": "2026-03-01",
+    "vendor_id": "VND-00009",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000030",
+    "line_count": "1",
+    "po_id": "PO-2026-000027",
+    "receipt_date": "2026-03-01",
+    "vendor_id": "VND-00013",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000031",
+    "line_count": "1",
+    "po_id": "PO-2026-000019",
+    "receipt_date": "2026-03-02",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000032",
+    "line_count": "1",
+    "po_id": "PO-2026-000029",
+    "receipt_date": "2026-03-02",
+    "vendor_id": "VND-00025",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000033",
+    "line_count": "1",
+    "po_id": "PO-2026-000018",
+    "receipt_date": "2026-03-03",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000034",
+    "line_count": "1",
+    "po_id": "PO-2026-000021",
+    "receipt_date": "2026-03-06",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000035",
+    "line_count": "1",
+    "po_id": "PO-2026-000028",
+    "receipt_date": "2026-03-06",
+    "vendor_id": "VND-00006",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000036",
+    "line_count": "1",
+    "po_id": "PO-2026-000018",
+    "receipt_date": "2026-03-07",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000037",
+    "line_count": "1",
+    "po_id": "PO-2026-000032",
+    "receipt_date": "2026-03-07",
+    "vendor_id": "VND-00009",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000038",
+    "line_count": "1",
+    "po_id": "PO-2026-000014",
+    "receipt_date": "2026-03-09",
+    "vendor_id": "VND-00008",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000039",
+    "line_count": "1",
+    "po_id": "PO-2026-000022",
+    "receipt_date": "2026-03-09",
+    "vendor_id": "VND-00030",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000040",
+    "line_count": "2",
+    "po_id": "PO-2026-000033",
+    "receipt_date": "2026-03-12",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000041",
+    "line_count": "1",
+    "po_id": "PO-2026-000035",
+    "receipt_date": "2026-03-13",
+    "vendor_id": "VND-00026",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000042",
+    "line_count": "1",
+    "po_id": "PO-2026-000032",
+    "receipt_date": "2026-03-14",
+    "vendor_id": "VND-00009",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000043",
+    "line_count": "1",
+    "po_id": "PO-2026-000030",
+    "receipt_date": "2026-03-16",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000044",
+    "line_count": "1",
+    "po_id": "PO-2026-000034",
+    "receipt_date": "2026-03-16",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000045",
+    "line_count": "1",
+    "po_id": "PO-2026-000031",
+    "receipt_date": "2026-03-18",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000046",
+    "line_count": "1",
+    "po_id": "PO-2026-000022",
+    "receipt_date": "2026-03-20",
+    "vendor_id": "VND-00030",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000047",
+    "line_count": "1",
+    "po_id": "PO-2026-000039",
+    "receipt_date": "2026-03-21",
+    "vendor_id": "VND-00003",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000048",
+    "line_count": "3",
+    "po_id": "PO-2026-000040",
+    "receipt_date": "2026-03-21",
+    "vendor_id": "VND-00027",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000049",
+    "line_count": "2",
+    "po_id": "PO-2026-000038",
+    "receipt_date": "2026-03-22",
+    "vendor_id": "VND-00015",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000050",
+    "line_count": "1",
+    "po_id": "PO-2026-000041",
+    "receipt_date": "2026-03-24",
+    "vendor_id": "VND-00009",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000051",
+    "line_count": "1",
+    "po_id": "PO-2026-000042",
+    "receipt_date": "2026-03-24",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000052",
+    "line_count": "4",
+    "po_id": "PO-2026-000043",
+    "receipt_date": "2026-03-26",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000053",
+    "line_count": "1",
+    "po_id": "PO-2026-000036",
+    "receipt_date": "2026-03-27",
+    "vendor_id": "VND-00006",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000054",
+    "line_count": "1",
+    "po_id": "PO-2026-000045",
+    "receipt_date": "2026-03-28",
+    "vendor_id": "VND-00025",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000055",
+    "line_count": "1",
+    "po_id": "PO-2026-000037",
+    "receipt_date": "2026-03-29",
+    "vendor_id": "VND-00013",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000056",
+    "line_count": "1",
+    "po_id": "PO-2026-000022",
+    "receipt_date": "2026-03-30",
+    "vendor_id": "VND-00030",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000057",
+    "line_count": "1",
+    "po_id": "PO-2026-000044",
+    "receipt_date": "2026-03-30",
+    "vendor_id": "VND-00024",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000058",
+    "line_count": "1",
+    "po_id": "PO-2026-000048",
+    "receipt_date": "2026-03-30",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000059",
+    "line_count": "1",
+    "po_id": "PO-2026-000042",
+    "receipt_date": "2026-04-01",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000060",
+    "line_count": "2",
+    "po_id": "PO-2026-000050",
+    "receipt_date": "2026-04-04",
+    "vendor_id": "VND-00005",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000061",
+    "line_count": "1",
+    "po_id": "PO-2026-000053",
+    "receipt_date": "2026-04-04",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000062",
+    "line_count": "1",
+    "po_id": "PO-2026-000053",
+    "receipt_date": "2026-04-07",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000063",
+    "line_count": "2",
+    "po_id": "PO-2026-000054",
+    "receipt_date": "2026-04-11",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000064",
+    "line_count": "1",
+    "po_id": "PO-2026-000046",
+    "receipt_date": "2026-04-12",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000065",
+    "line_count": "1",
+    "po_id": "PO-2026-000057",
+    "receipt_date": "2026-04-13",
+    "vendor_id": "VND-00018",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000066",
+    "line_count": "1",
+    "po_id": "PO-2026-000049",
+    "receipt_date": "2026-04-16",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000067",
+    "line_count": "2",
+    "po_id": "PO-2026-000047",
+    "receipt_date": "2026-04-17",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000068",
+    "line_count": "1",
+    "po_id": "PO-2026-000049",
+    "receipt_date": "2026-04-19",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000069",
+    "line_count": "1",
+    "po_id": "PO-2026-000051",
+    "receipt_date": "2026-04-20",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000070",
+    "line_count": "4",
+    "po_id": "PO-2026-000052",
+    "receipt_date": "2026-04-24",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000071",
+    "line_count": "1",
+    "po_id": "PO-2026-000056",
+    "receipt_date": "2026-04-29",
+    "vendor_id": "VND-00009",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000072",
+    "line_count": "1",
+    "po_id": "PO-2026-000051",
+    "receipt_date": "2026-05-05",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000073",
+    "line_count": "1",
+    "po_id": "PO-2026-000061",
+    "receipt_date": "2026-05-05",
+    "vendor_id": "VND-00005",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000074",
+    "line_count": "2",
+    "po_id": "PO-2026-000058",
+    "receipt_date": "2026-05-10",
+    "vendor_id": "VND-00014",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000075",
+    "line_count": "1",
+    "po_id": "PO-2026-000059",
+    "receipt_date": "2026-05-10",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000076",
+    "line_count": "1",
+    "po_id": "PO-2026-000062",
+    "receipt_date": "2026-05-11",
+    "vendor_id": "VND-00006",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000077",
+    "line_count": "1",
+    "po_id": "PO-2026-000059",
+    "receipt_date": "2026-05-13",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000078",
+    "line_count": "1",
+    "po_id": "PO-2026-000060",
+    "receipt_date": "2026-05-15",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000079",
+    "line_count": "1",
+    "po_id": "PO-2026-000065",
+    "receipt_date": "2026-05-20",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000080",
+    "line_count": "1",
+    "po_id": "PO-2026-000069",
+    "receipt_date": "2026-05-21",
+    "vendor_id": "VND-00003",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000081",
+    "line_count": "1",
+    "po_id": "PO-2026-000067",
+    "receipt_date": "2026-05-22",
+    "vendor_id": "VND-00017",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000082",
+    "line_count": "1",
+    "po_id": "PO-2026-000063",
+    "receipt_date": "2026-05-28",
+    "vendor_id": "VND-00007",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000083",
+    "line_count": "1",
+    "po_id": "PO-2026-000066",
+    "receipt_date": "2026-05-28",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000084",
+    "line_count": "1",
+    "po_id": "PO-2026-000064",
+    "receipt_date": "2026-05-30",
+    "vendor_id": "VND-00011",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000085",
+    "line_count": "1",
+    "po_id": "PO-2026-000071",
+    "receipt_date": "2026-05-30",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000086",
+    "line_count": "1",
+    "po_id": "PO-2026-000075",
+    "receipt_date": "2026-05-31",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000087",
+    "line_count": "1",
+    "po_id": "PO-2026-000065",
+    "receipt_date": "2026-06-01",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000088",
+    "line_count": "2",
+    "po_id": "PO-2026-000077",
+    "receipt_date": "2026-06-01",
+    "vendor_id": "VND-00024",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000089",
+    "line_count": "1",
+    "po_id": "PO-2026-000066",
+    "receipt_date": "2026-06-04",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000090",
+    "line_count": "1",
+    "po_id": "PO-2026-000068",
+    "receipt_date": "2026-06-05",
+    "vendor_id": "VND-00018",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000091",
+    "line_count": "1",
+    "po_id": "PO-2026-000074",
+    "receipt_date": "2026-06-08",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000092",
+    "line_count": "2",
+    "po_id": "PO-2026-000072",
+    "receipt_date": "2026-06-11",
+    "vendor_id": "VND-00027",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000093",
+    "line_count": "1",
+    "po_id": "PO-2026-000070",
+    "receipt_date": "2026-06-13",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000094",
+    "line_count": "1",
+    "po_id": "PO-2026-000078",
+    "receipt_date": "2026-06-13",
+    "vendor_id": "VND-00026",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000095",
+    "line_count": "1",
+    "po_id": "PO-2026-000090",
+    "receipt_date": "2026-06-13",
+    "vendor_id": "VND-00005",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000096",
+    "line_count": "1",
+    "po_id": "PO-2026-000074",
+    "receipt_date": "2026-06-14",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000097",
+    "line_count": "1",
+    "po_id": "PO-2026-000080",
+    "receipt_date": "2026-06-15",
+    "vendor_id": "VND-00002",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000098",
+    "line_count": "1",
+    "po_id": "PO-2026-000084",
+    "receipt_date": "2026-06-15",
+    "vendor_id": "VND-00003",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000099",
+    "line_count": "1",
+    "po_id": "PO-2026-000089",
+    "receipt_date": "2026-06-15",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000100",
+    "line_count": "1",
+    "po_id": "PO-2026-000081",
+    "receipt_date": "2026-06-16",
+    "vendor_id": "VND-00030",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000101",
+    "line_count": "1",
+    "po_id": "PO-2026-000088",
+    "receipt_date": "2026-06-16",
+    "vendor_id": "VND-00028",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000102",
+    "line_count": "1",
+    "po_id": "PO-2026-000090",
+    "receipt_date": "2026-06-16",
+    "vendor_id": "VND-00005",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000103",
+    "line_count": "2",
+    "po_id": "PO-2026-000076",
+    "receipt_date": "2026-06-17",
+    "vendor_id": "VND-00015",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000104",
+    "line_count": "1",
+    "po_id": "PO-2026-000085",
+    "receipt_date": "2026-06-17",
+    "vendor_id": "VND-00002",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000105",
+    "line_count": "2",
+    "po_id": "PO-2026-000083",
+    "receipt_date": "2026-06-19",
+    "vendor_id": "VND-00025",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000106",
+    "line_count": "1",
+    "po_id": "PO-2026-000092",
+    "receipt_date": "2026-06-20",
+    "vendor_id": "VND-00021",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000107",
+    "line_count": "1",
+    "po_id": "PO-2026-000082",
+    "receipt_date": "2026-06-21",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000108",
+    "line_count": "1",
+    "po_id": "PO-2026-000091",
+    "receipt_date": "2026-06-21",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000109",
+    "line_count": "1",
+    "po_id": "PO-2026-000093",
+    "receipt_date": "2026-06-23",
+    "vendor_id": "VND-00021",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000110",
+    "line_count": "1",
+    "po_id": "PO-2026-000098",
+    "receipt_date": "2026-06-23",
+    "vendor_id": "VND-00027",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000111",
+    "line_count": "1",
+    "po_id": "PO-2026-000080",
+    "receipt_date": "2026-06-24",
+    "vendor_id": "VND-00002",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000112",
+    "line_count": "1",
+    "po_id": "PO-2026-000097",
+    "receipt_date": "2026-06-24",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000113",
+    "line_count": "2",
+    "po_id": "PO-2026-000087",
+    "receipt_date": "2026-06-26",
+    "vendor_id": "VND-00014",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000114",
+    "line_count": "4",
+    "po_id": "PO-2026-000086",
+    "receipt_date": "2026-06-27",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000115",
+    "line_count": "1",
+    "po_id": "PO-2026-000095",
+    "receipt_date": "2026-06-30",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000116",
+    "line_count": "1",
+    "po_id": "PO-2026-000092",
+    "receipt_date": "2026-07-01",
+    "vendor_id": "VND-00021",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000117",
+    "line_count": "1",
+    "po_id": "PO-2026-000102",
+    "receipt_date": "2026-07-01",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000118",
+    "line_count": "1",
+    "po_id": "PO-2026-000100",
+    "receipt_date": "2026-07-04",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000119",
+    "line_count": "1",
+    "po_id": "PO-2026-000108",
+    "receipt_date": "2026-07-04",
+    "vendor_id": "VND-00016",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000120",
+    "line_count": "1",
+    "po_id": "PO-2026-000094",
+    "receipt_date": "2026-07-05",
+    "vendor_id": "VND-00027",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000121",
+    "line_count": "1",
+    "po_id": "PO-2026-000103",
+    "receipt_date": "2026-07-05",
+    "vendor_id": "VND-00006",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000122",
+    "line_count": "1",
+    "po_id": "PO-2026-000092",
+    "receipt_date": "2026-07-08",
+    "vendor_id": "VND-00021",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000123",
+    "line_count": "1",
+    "po_id": "PO-2026-000105",
+    "receipt_date": "2026-07-08",
+    "vendor_id": "VND-00008",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000124",
+    "line_count": "2",
+    "po_id": "PO-2026-000111",
+    "receipt_date": "2026-07-08",
+    "vendor_id": "VND-00016",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000125",
+    "line_count": "1",
+    "po_id": "PO-2026-000106",
+    "receipt_date": "2026-07-09",
+    "vendor_id": "VND-00001",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000126",
+    "line_count": "1",
+    "po_id": "PO-2026-000099",
+    "receipt_date": "2026-07-12",
+    "vendor_id": "VND-00027",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000127",
+    "line_count": "1",
+    "po_id": "PO-2026-000101",
+    "receipt_date": "2026-07-13",
+    "vendor_id": "VND-00019",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000128",
+    "line_count": "3",
+    "po_id": "PO-2026-000104",
+    "receipt_date": "2026-07-13",
+    "vendor_id": "VND-00007",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000129",
+    "line_count": "1",
+    "po_id": "PO-2026-000113",
+    "receipt_date": "2026-07-13",
+    "vendor_id": "VND-00026",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000130",
+    "line_count": "3",
+    "po_id": "PO-2026-000107",
+    "receipt_date": "2026-07-15",
+    "vendor_id": "VND-00017",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000131",
+    "line_count": "1",
+    "po_id": "PO-2026-000112",
+    "receipt_date": "2026-07-16",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000132",
+    "line_count": "1",
+    "po_id": "PO-2026-000116",
+    "receipt_date": "2026-07-16",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000133",
+    "line_count": "2",
+    "po_id": "PO-2026-000115",
+    "receipt_date": "2026-07-18",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000134",
+    "line_count": "1",
+    "po_id": "PO-2026-000110",
+    "receipt_date": "2026-07-21",
+    "vendor_id": "VND-00025",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000135",
+    "line_count": "2",
+    "po_id": "PO-2026-000109",
+    "receipt_date": "2026-07-24",
+    "vendor_id": "VND-00026",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000136",
+    "line_count": "1",
+    "po_id": "PO-2026-000117",
+    "receipt_date": "2026-07-24",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000137",
+    "line_count": "1",
+    "po_id": "PO-2026-000117",
+    "receipt_date": "2026-07-26",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000138",
+    "line_count": "1",
+    "po_id": "PO-2026-000099",
+    "receipt_date": "2026-07-27",
+    "vendor_id": "VND-00027",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000139",
+    "line_count": "1",
+    "po_id": "PO-2026-000116",
+    "receipt_date": "2026-07-29",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000140",
+    "line_count": "1",
+    "po_id": "PO-2026-000114",
+    "receipt_date": "2026-07-30",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000141",
+    "line_count": "2",
+    "po_id": "PO-2026-000118",
+    "receipt_date": "2026-08-03",
+    "vendor_id": "VND-00003",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000142",
+    "line_count": "1",
+    "po_id": "PO-2026-000121",
+    "receipt_date": "2026-08-04",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000143",
+    "line_count": "3",
+    "po_id": "PO-2026-000119",
+    "receipt_date": "2026-08-09",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000144",
+    "line_count": "3",
+    "po_id": "PO-2026-000120",
+    "receipt_date": "2026-08-09",
+    "vendor_id": "VND-00011",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000145",
+    "line_count": "4",
+    "po_id": "PO-2026-000131",
+    "receipt_date": "2026-08-11",
+    "vendor_id": "VND-00003",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000146",
+    "line_count": "1",
+    "po_id": "PO-2026-000128",
+    "receipt_date": "2026-08-14",
+    "vendor_id": "VND-00005",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000147",
+    "line_count": "1",
+    "po_id": "PO-2026-000121",
+    "receipt_date": "2026-08-15",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000148",
+    "line_count": "1",
+    "po_id": "PO-2026-000124",
+    "receipt_date": "2026-08-19",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000149",
+    "line_count": "2",
+    "po_id": "PO-2026-000126",
+    "receipt_date": "2026-08-19",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000150",
+    "line_count": "1",
+    "po_id": "PO-2026-000127",
+    "receipt_date": "2026-08-20",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000151",
+    "line_count": "1",
+    "po_id": "PO-2026-000119",
+    "receipt_date": "2026-08-22",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000152",
+    "line_count": "1",
+    "po_id": "PO-2026-000125",
+    "receipt_date": "2026-08-22",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000153",
+    "line_count": "1",
+    "po_id": "PO-2026-000122",
+    "receipt_date": "2026-08-24",
+    "vendor_id": "VND-00011",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000154",
+    "line_count": "1",
+    "po_id": "PO-2026-000123",
+    "receipt_date": "2026-08-24",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000155",
+    "line_count": "1",
+    "po_id": "PO-2026-000129",
+    "receipt_date": "2026-08-26",
+    "vendor_id": "VND-00023",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000156",
+    "line_count": "1",
+    "po_id": "PO-2026-000133",
+    "receipt_date": "2026-08-26",
+    "vendor_id": "VND-00028",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000157",
+    "line_count": "1",
+    "po_id": "PO-2026-000130",
+    "receipt_date": "2026-08-28",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000158",
+    "line_count": "1",
+    "po_id": "PO-2026-000132",
+    "receipt_date": "2026-08-28",
+    "vendor_id": "VND-00014",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000159",
+    "line_count": "5",
+    "po_id": "PO-2026-000136",
+    "receipt_date": "2026-08-28",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000160",
+    "line_count": "1",
+    "po_id": "PO-2026-000134",
+    "receipt_date": "2026-08-31",
+    "vendor_id": "VND-00027",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000161",
+    "line_count": "1",
+    "po_id": "PO-2026-000135",
+    "receipt_date": "2026-09-03",
+    "vendor_id": "VND-00013",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000162",
+    "line_count": "1",
+    "po_id": "PO-2026-000140",
+    "receipt_date": "2026-09-04",
+    "vendor_id": "VND-00029",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000163",
+    "line_count": "1",
+    "po_id": "PO-2026-000148",
+    "receipt_date": "2026-09-04",
+    "vendor_id": "VND-00006",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000164",
+    "line_count": "1",
+    "po_id": "PO-2026-000122",
+    "receipt_date": "2026-09-05",
+    "vendor_id": "VND-00011",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000165",
+    "line_count": "1",
+    "po_id": "PO-2026-000147",
+    "receipt_date": "2026-09-06",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000166",
+    "line_count": "2",
+    "po_id": "PO-2026-000149",
+    "receipt_date": "2026-09-06",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000167",
+    "line_count": "1",
+    "po_id": "PO-2026-000139",
+    "receipt_date": "2026-09-07",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000168",
+    "line_count": "2",
+    "po_id": "PO-2026-000138",
+    "receipt_date": "2026-09-08",
+    "vendor_id": "VND-00001",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000169",
+    "line_count": "1",
+    "po_id": "PO-2026-000141",
+    "receipt_date": "2026-09-08",
+    "vendor_id": "VND-00027",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000170",
+    "line_count": "1",
+    "po_id": "PO-2026-000148",
+    "receipt_date": "2026-09-08",
+    "vendor_id": "VND-00006",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000171",
+    "line_count": "1",
+    "po_id": "PO-2026-000137",
+    "receipt_date": "2026-09-09",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000172",
+    "line_count": "1",
+    "po_id": "PO-2026-000144",
+    "receipt_date": "2026-09-09",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000173",
+    "line_count": "1",
+    "po_id": "PO-2026-000142",
+    "receipt_date": "2026-09-12",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000174",
+    "line_count": "2",
+    "po_id": "PO-2026-000150",
+    "receipt_date": "2026-09-14",
+    "vendor_id": "VND-00027",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000175",
+    "line_count": "1",
+    "po_id": "PO-2026-000145",
+    "receipt_date": "2026-09-17",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000176",
+    "line_count": "1",
+    "po_id": "PO-2026-000146",
+    "receipt_date": "2026-09-17",
+    "vendor_id": "VND-00008",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000177",
+    "line_count": "1",
+    "po_id": "PO-2026-000143",
+    "receipt_date": "2026-09-20",
+    "vendor_id": "VND-00025",
+    "warehouse": "WH-WEST"
+  },
+  {
+    "grn_id": "GRN-2026-000178",
+    "line_count": "1",
+    "po_id": "PO-2026-000144",
+    "receipt_date": "2026-09-22",
+    "vendor_id": "VND-00020",
+    "warehouse": "WH-CENTRAL"
+  },
+  {
+    "grn_id": "GRN-2026-000179",
+    "line_count": "1",
+    "po_id": "PO-2026-000145",
+    "receipt_date": "2026-09-26",
+    "vendor_id": "VND-00004",
+    "warehouse": "WH-EAST"
+  },
+  {
+    "grn_id": "GRN-2026-000180",
+    "line_count": "1",
+    "po_id": "PO-2026-000146",
+    "receipt_date": "2026-09-28",
+    "vendor_id": "VND-00008",
+    "warehouse": "WH-WEST"
+  }
+]

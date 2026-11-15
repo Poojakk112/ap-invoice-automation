@@ -1,0 +1,274 @@
+{
+  "acceptance": {
+    "all": 1.0,
+    "approval": 1.0,
+    "arithmetic": 1.0,
+    "duplicate": 1.0,
+    "extraction": 1.0,
+    "match": 1.0,
+    "payment_safe": 1.0
+  },
+  "confusion_primary": [
+    {
+      "count": 140,
+      "expected": "CLEAN",
+      "predicted": "CLEAN"
+    },
+    {
+      "count": 1,
+      "expected": "DATE_BEFORE_PO",
+      "predicted": "DATE_BEFORE_PO"
+    },
+    {
+      "count": 5,
+      "expected": "DUPLICATE_EXACT",
+      "predicted": "DUPLICATE_EXACT"
+    },
+    {
+      "count": 5,
+      "expected": "DUPLICATE_NUMBER",
+      "predicted": "DUPLICATE_NUMBER"
+    },
+    {
+      "count": 8,
+      "expected": "MISSING_RECEIPT",
+      "predicted": "MISSING_RECEIPT"
+    },
+    {
+      "count": 20,
+      "expected": "PRICE_VARIANCE",
+      "predicted": "PRICE_VARIANCE"
+    },
+    {
+      "count": 6,
+      "expected": "QTY_EXCEEDS_PO",
+      "predicted": "QTY_EXCEEDS_PO"
+    },
+    {
+      "count": 10,
+      "expected": "QTY_EXCEEDS_RECEIVED",
+      "predicted": "QTY_EXCEEDS_RECEIVED"
+    },
+    {
+      "count": 2,
+      "expected": "TAX_MISMATCH",
+      "predicted": "TAX_MISMATCH"
+    },
+    {
+      "count": 1,
+      "expected": "TOTAL_MISMATCH",
+      "predicted": "TOTAL_MISMATCH"
+    },
+    {
+      "count": 2,
+      "expected": "VENDOR_INACTIVE",
+      "predicted": "VENDOR_INACTIVE"
+    }
+  ],
+  "duplicates": {
+    "false_positives": 0,
+    "labelled": 10,
+    "pairs_correct": 10
+  },
+  "exception_detection": {
+    "DATE_BEFORE_PO": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 1,
+      "tp": 1
+    },
+    "DUPLICATE_EXACT": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 5,
+      "tp": 5
+    },
+    "DUPLICATE_NUMBER": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 5,
+      "tp": 5
+    },
+    "MISSING_RECEIPT": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 8,
+      "tp": 8
+    },
+    "PRICE_VARIANCE": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 20,
+      "tp": 20
+    },
+    "QTY_EXCEEDS_PO": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 6,
+      "tp": 6
+    },
+    "QTY_EXCEEDS_RECEIVED": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 13,
+      "tp": 13
+    },
+    "TAX_MISMATCH": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 2,
+      "tp": 2
+    },
+    "TOTAL_MISMATCH": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 1,
+      "tp": 1
+    },
+    "VENDOR_INACTIVE": {
+      "f1": 1.0,
+      "fn": 0,
+      "fp": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "support": 2,
+      "tp": 2
+    }
+  },
+  "extraction_field_accuracy": {
+    "currency": 1.0,
+    "invoice_date": 1.0,
+    "line.description": 1.0,
+    "line.line_amount": 1.0,
+    "line.quantity": 1.0,
+    "line.sku": 1.0,
+    "line.tax_code": 1.0,
+    "line.unit_price": 1.0,
+    "line_count": 1.0,
+    "po_number": 1.0,
+    "stated_total": 1.0,
+    "subtotal": 1.0,
+    "tax_total": 1.0,
+    "vendor_id": 1.0,
+    "vendor_invoice_number": 1.0
+  },
+  "kpis": {
+    "approval_tiers": {
+      "1": 105,
+      "2": 35,
+      "3": 0
+    },
+    "blocked_value": "366424.82",
+    "duplicate_payments_prevented_value": "39894.10",
+    "exception_rate": 0.3,
+    "exceptions_by_queue": {
+      "AP_DATA_QUALITY": 2,
+      "AP_DUPLICATE_REVIEW": 10,
+      "PROCUREMENT": 26,
+      "RECEIVING": 18,
+      "TAX_TEAM": 2,
+      "VENDOR_MASTER": 2
+    },
+    "invoices_processed": 200,
+    "overbilling_prevented_value": "37548.90",
+    "payment_ready_count": 140,
+    "payment_ready_value": "1074728.72",
+    "straight_through_rate": 0.7,
+    "top_exception_vendors": [
+      {
+        "exceptions": 10,
+        "vendor_id": "VND-00004",
+        "vendor_name": "Blue Ridge Tech Systems Co"
+      },
+      {
+        "exceptions": 6,
+        "vendor_id": "VND-00003",
+        "vendor_name": "Northwind Industrial Services Inc"
+      },
+      {
+        "exceptions": 5,
+        "vendor_id": "VND-00020",
+        "vendor_name": "Tidewater Office Services LLC"
+      },
+      {
+        "exceptions": 5,
+        "vendor_id": "VND-00025",
+        "vendor_name": "Westfield Industrial Works Corp"
+      },
+      {
+        "exceptions": 5,
+        "vendor_id": "VND-00027",
+        "vendor_name": "Frontier Facility Supply LLC"
+      },
+      {
+        "exceptions": 4,
+        "vendor_id": "VND-00029",
+        "vendor_name": "Falcon Facility Group LLC"
+      },
+      {
+        "exceptions": 3,
+        "vendor_id": "VND-00014",
+        "vendor_name": "Cedar Safety Distributors LLC"
+      },
+      {
+        "exceptions": 3,
+        "vendor_id": "VND-00018",
+        "vendor_name": "Apex Office Solutions Corp"
+      },
+      {
+        "exceptions": 2,
+        "vendor_id": "VND-00005",
+        "vendor_name": "Tidewater Metro Solutions Inc"
+      },
+      {
+        "exceptions": 2,
+        "vendor_id": "VND-00007",
+        "vendor_name": "Granite Precision Distributors LLC"
+      }
+    ],
+    "value_at_risk_by_code": {
+      "DATE_BEFORE_PO": "0.00",
+      "DUPLICATE_EXACT": "27804.84",
+      "DUPLICATE_NUMBER": "12089.26",
+      "MISSING_RECEIPT": "87705.96",
+      "PRICE_VARIANCE": "19469.84",
+      "QTY_EXCEEDS_PO": "4622.95",
+      "QTY_EXCEEDS_RECEIVED": "13456.11",
+      "TAX_MISMATCH": "0.00",
+      "TOTAL_MISMATCH": "21.48",
+      "VENDOR_INACTIVE": "7234.99"
+    }
+  },
+  "primary_exception_accuracy": 1.0,
+  "safety": {
+    "blocked_invoices_marked_payment_ready": 0,
+    "gate": "PASS"
+  }
+}
